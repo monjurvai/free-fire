@@ -8,32 +8,51 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
    <title>Md Monjur Bakth Mazumder</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+   <link rel="stylesheet" href="styles/style.css">
+   <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <!-- 100% responsible website for 5 devise  -->
     <!-- nav start  -->
-    <!-- <nav>
-        <div class="nav-icon">
-            <img src="images/logo.png" alt="">
-            <h1><span>G</span>arena</h1>
-        </div>
-        <ul>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Developers</a></li>
-            <li>
-                <ul class="follow">
-                    <li><a href="">Follow Us On</a></li>
-                    <li><i class="fa-brands fa-youtube" style="color: #ff0000;"></i></li>
-                    <li><i class="fa-brands fa-tiktok" style="color: #13111d;"></i></li>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top ">
+            <div class="container ">
+                <a class="navbar-brand d-flex justify-content-center gap-1 md:gap-2" href="#">
+                    <div class="logo">
+                        <img src="images/logo.png" alt=""  class="mt-1 img-fluid">
+                    </div>
+                        <h1 class="garena"><span>G</span>arena</h1>
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Character">Character</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Gun">Gun</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Squad">Squad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#Duo">Duo</a>
+                  </li>
                 </ul>
-            </li>
-        </ul>
-    </nav> -->
+    
+              </div>
+            </div>
+          </nav>
+    
     <!-- nav end  -->
     <!-- header start  -->
-    <header>
+    <header id="Home">
         <div class="header-text">
             <h2><small>Play Like The</small></h2>
             <h1>Md Monjur Bakth Mazumder</h1>
@@ -46,7 +65,7 @@
     </header>
     <!-- header end  -->
     <!-- Online Games Funny Videos start  -->
-    <section class="Online-Games-Funny-Videos">
+    <section id="Character" class="Online-Games-Funny-Videos">
         <h1>Favorite Character <span>skills</span></h1>
         <p>The character skills I use the most in the game</p>
         <div class="Online-Games-Funny-Videos-img">
@@ -68,7 +87,7 @@
             </div>
         </div>
     </section>
-    <section class="Online-Games-Funny-Videos">
+    <section id="Gun" class="Online-Games-Funny-Videos">
         <h1>Favorite <span>Gun</span></h1>
         <p>The guns I use the most in the game</p>
         <div class="Online-Games-Funny-Videos-img">
@@ -90,7 +109,7 @@
             </div>
         </div>
     </section>
-    <section class="Online-Games-Funny-Videos">
+    <section id="Squad" class="Online-Games-Funny-Videos">
         <h1>My <span>Squad</span></h1>
         <p>My squad, we always play together</p>
         <div class="Online-Games-Funny-Videos-img">
@@ -114,7 +133,7 @@
     </section>
     <!-- Online Games Funny Videos end  -->
     <!-- Play Instantly start  -->
-    <section class="duo">
+    <section id="Duo" class="duo">
         <h1>My Dynamic<span> Duo</span></h1> 
         <div class="duo-img">
             <img src="images/gilr4.jpeg" alt="" class=" dou-img-4">
@@ -127,9 +146,8 @@
 
     <!-- footer start  -->
     <footer>
-        <div class="nav-icon">
-            <img src="images/logo.png" alt="">
-            <h1><span>G</span>arena</h1>
+        <div>
+            <h1 class="garena"><span>G</span>arena</h1>
         </div>
         <div class="social-icon">
             <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter" style="color: #ffffff;font-size: 30px;"></i></a>
@@ -142,7 +160,7 @@
         <p>&copy;Md Monjur Bakth Mazumder || All rights reserved</p>
     </footer>
     <!-- footer end  -->
-
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- font awesome link  -->
     <script src="https://kit.fontawesome.com/985549e602.js" crossorigin="anonymous"></script>
 </body>
